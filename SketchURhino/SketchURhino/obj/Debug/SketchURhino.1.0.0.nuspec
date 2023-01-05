@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SketchURhino</id>
+    <version>1.0.0</version>
+    <title>SketchURhino</title>
+    <authors>SketchURhino</authors>
+    <description>Description of SketchURhino</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="RhinoCommon" version="7.22.22255.5001" exclude="Runtime,Build,Native,Analyzers,BuildTransitive" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\OneDrive\\Develop\\SUR\\C#\\SketchURhino\\SketchURhino\\SketchURhino.csproj": {}
+  },
+  "projects": {
+    "E:\\OneDrive\\Develop\\SUR\\C#\\SketchURhino\\SketchURhino\\SketchURhino.csproj": {
+      "version": "0.6.1.6",
+      "restore": {
+        "projectUniqueName": "E:\\OneDrive\\Develop\\SUR\\C#\\SketchURhino\\SketchURhino\\SketchURhino.csproj",
+        "projectName": "SketchURhino",
+        "projectPath": "E:\\OneDrive\\Develop\\SUR\\C#\\SketchURhino\\SketchURhino\\SketchURhino.csproj",
+        "packagesPath": "C:\\Users\\HEI2\\.nuget\\packages\\",
+        "outputPath": "E:\\OneDrive\\Develop\\SUR\\C#\\SketchURhino\\SketchURhino\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HEI2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "RhinoCommon": {
+              "target": "Package",
+              "version": "[7.25.22326.19001, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

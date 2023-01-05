@@ -1,0 +1,10 @@
+global using Rhino;
+global using Rhino.Commands;
+global using Rhino.Geometry;
+global using Rhino.DocObjects;
+global using Rhino.Input;
+global using Rhino.Input.Custom;
+global using System;
+global using System.Resources;
+global using System.Collections.Generic;
+global using Rhino.PlugIns;

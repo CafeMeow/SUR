@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lKzfL0kX1vZVLNiaLDvD8FPDXusw3+E+r2dLtRbC1C7B2tPpKcGPKqxK3H1JYzmiVqASOjXGZwBYBxMnU6ihTA==",
+  "success": true,
+  "projectFilePath": "E:\\OneDrive\\Develop\\SUR\\C#\\SketchURhino\\SketchURhino\\SketchURhino.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HEI2\\.nuget\\packages\\rhinocommon\\7.25.22326.19001\\rhinocommon.7.25.22326.19001.nupkg.sha512"
+  ],
+  "logs": []
+}

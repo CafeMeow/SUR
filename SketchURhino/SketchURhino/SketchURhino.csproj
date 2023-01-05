@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Version>0.6.1.6</Version>
+    <Title>SketchURhino</Title>
+    <Description>Use Rhino as it if were SketchUp</Description>
+    <TargetExt>.rhp</TargetExt>
+    <LangVersion>11</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="EmbeddedResources\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="7.25.22326.19001" />
+  </ItemGroup>
+  
+  <PropertyGroup Condition="$(Configuration) == 'Debug' AND $([MSBuild]::IsOSPlatform(Windows))">
+    <StartProgram>D:\Program Files\Rhino 7\System\Rhino.exe</StartProgram>
+    <StartArguments></StartArguments>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+  
+</Project>
