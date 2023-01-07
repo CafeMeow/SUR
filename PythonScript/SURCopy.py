@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 import rhinoscriptsyntax as rs
 
-
-
 def SURCopy():
 
     def GetObjs():
@@ -21,7 +19,6 @@ def SURCopy():
                     # global _gapLength
                     # _gapLength = rs.Distance(_start , end)
                     return _copyobjectids
-
 
     def is_number(s):  
         try:    # 如果能运⾏ float(s) 语句，返回 True（字符串 s 是浮点数）        
